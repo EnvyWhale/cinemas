@@ -7,39 +7,41 @@
 -->
 <template>
   <div>
-    <van-list
-      :loading="loading"
-      :finished="finished"
-      finished-text="没有更多了"
-      @load="onLoad"
-      :immediate-check="false"
-      offset="100"
-      v-model="loading"
-    >
-      <van-cell
-        v-for="item in datalist"
-        :key="item.filmId"
-        @click="jumping(item.filmId)"
+    <van-pull-refresh v-model="refreshing" @refresh="onRefresh">
+      <van-list
+        :loading="loading"
+        :finished="finished"
+        finished-text="没有更多了"
+        @load="onLoad"
+        :immediate-check="false"
+        offset="100"
+        v-model="loading"
       >
-        <!-- 1.用route-link标签跳转 -->
-        <!-- <router-link to="/detail">{{ item }}</router-link> -->
-        <!-- 2.用编程式导航跳转 -->
-        <div class="cinemabox">
-          <div class="imgbox">
-            <img :src="item.poster" alt="" />
+        <van-cell
+          v-for="item in datalist"
+          :key="item.filmId"
+          @click="jumping(item.filmId)"
+        >
+          <!-- 1.用route-link标签跳转 -->
+          <!-- <router-link to="/detail">{{ item }}</router-link> -->
+          <!-- 2.用编程式导航跳转 -->
+          <div class="CinemaBox">
+            <div class="ImgBox">
+              <img :src="item.poster" alt="" />
+            </div>
+            <div class="content">
+              <div class="title">{{ item.name }}</div>
+              <span :class="item.grade ? '' : 'hidden'"
+                >观众评分：{{ item.grade }}</span
+              >
+              <div class="actors">主演：{{ item.actors | actorsFilter }}</div>
+              <div>{{ item.nation }} | {{ item.runtime }}分钟</div>
+            </div>
+            <button class="btn_buy" :data-filmid="item.filmId">购票</button>
           </div>
-          <div class="content">
-            <div class="title">{{ item.name }}</div>
-            <span :class="item.grade ? '' : 'hidden'"
-              >观众评分：{{ item.grade }}</span
-            >
-            <div class="actors">主演：{{ item.actors | actorsFilter }}</div>
-            <div>{{ item.nation }} | {{ item.runtime }}分钟</div>
-          </div>
-          <button class="btn_buy" :data-filmid="item.filmId">购票</button>
-        </div>
-      </van-cell>
-    </van-list>
+        </van-cell>
+      </van-list>
+    </van-pull-refresh>
   </div>
 </template>
 <script>
@@ -60,6 +62,7 @@ export default {
       datalist: [],
       loading: false,
       finished: false,
+      refreshing: false,
       pag: 1,
       total: 0,
     };
@@ -76,7 +79,7 @@ export default {
       //   this.$router.push(`/detail/${id}`)
       // 通过命名路由跳转
       this.$router.push({
-        name: "yxsdetail",
+        name: "detail",
         params: {
           id,
         },
@@ -103,6 +106,18 @@ export default {
         this.loading = false;
       });
     },
+    onRefresh() {
+      // 清空列表数据
+      this.finished = false;
+
+      // 重新加载数据
+      // 将 loading 设置为 true，表示处于加载状态
+      this.loading = true;
+      this.pag = 0;
+      this.datalist = [];
+      this.onLoad();
+      this.refreshing = false;
+    },
   },
   mounted() {
     // 1.用http封装axios函数式
@@ -128,7 +143,7 @@ export default {
   .van-cell {
     padding: 10px 10px;
   }
-  .cinemabox {
+  .CinemaBox {
     // background-color: aquamarine;
     overflow: hidden;
     position: relative;
@@ -137,7 +152,7 @@ export default {
       border: 1px rgb(255, 207, 207) solid;
     }
 
-    .imgbox {
+    .ImgBox {
       position: absolute;
       margin-right: 10px;
       background-position: center;

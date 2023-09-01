@@ -8,33 +8,33 @@
 <template>
   <div id="app">
     <!-- 声明式导航 -->
-   <tabbar ref="mytabbar" v-show="$store.state.isTabbarShow"></tabbar>
-  <!-- 路由容器 -->
-  <section>
-    <router-view></router-view>
-  </section>
+    <TabBar ref="mytabbar" v-show="$store.state.isTabbarShow"></TabBar>
+    <!-- 路由容器 -->
+    <section>
+      <router-view></router-view>
+    </section>
   </div>
 </template>
 <script>
-import Vue from 'vue'
-import Vant from 'vant'
-import 'vant/lib/index.css'
-import tabbar from '@/components/Tabbar'
-Vue.use(Vant)// vue.components全局注册
+import Vue from "vue";
+import Vant from "vant";
+import "vant/lib/index.css";
+import TabBar from "@/components/TabBar";
+Vue.use(Vant); // vue.components全局注册
 
 export default {
   components: {
-    tabbar
-  }
-}
-
+    TabBar,
+  },
+};
 </script>
 <style lang="scss">
-html,body{
+html,
+body {
   margin: 0;
   padding: 0;
 }
-section{
+section {
   width: 100%;
   margin-bottom: 40px;
 }

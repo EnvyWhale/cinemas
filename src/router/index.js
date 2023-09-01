@@ -66,7 +66,7 @@ const routes = [
   // },
   // 电影详情路由配置
   {
-    name: 'yxsdetail', // 命名路由
+    name: 'detail', // 命名路由
     path: '/detail/:id', // 动态路由
     component: Detail
   },
