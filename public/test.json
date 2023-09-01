@@ -1,0 +1,416 @@
+{
+    "status": 0,
+    "data": {
+        "films": [{
+            "filmId": 4703,
+            "name": "千与千寻 ",
+            "poster": "https://pic.maizuo.com/usr/movie/73b25044a8c9756fa41d3a723ee6c2c2.jpg",
+            "actors": [{
+                "name": "宫崎骏",
+                "role": "导演",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/730402b2493531a1e91d810ace77a29e.jpg"
+            }, {
+                "name": "柊瑠美",
+                "role": "荻野千寻",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/10874abbc01c4ddfd41274fe565b721a.jpg"
+            }, {
+                "name": " 入野自由",
+                "role": " 白龙 ",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/6ef17d1b6d74385fa77f7b2b9ae9b8ee.jpg"
+            }, {
+                "name": "夏木真理",
+                "role": " 汤婆婆   钱婆婆 ",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/c7a5e9cc47e7d754513e0edef53aedd7.jpg"
+            }, {
+                "name": "中村彰男 ",
+                "role": "无脸男",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/5e75057c2b6a5f7c526ffa6b777d8682.jpg"
+            }],
+            "director": "宫崎骏",
+            "category": "剧情|动画|奇幻",
+            "synopsis": "千寻和爸爸妈妈一同驱车前往新家，在郊外的小路上不慎进入了神秘的隧道——他们去到了另外一个诡异世界—一个中世纪的小镇。远处飘来食物的香味，爸爸妈妈大快朵颐，孰料之后变成了猪！这时小镇上渐渐来了许多样子古怪、半透明的人。　　千寻仓皇逃出，一个叫小白的人救了他，喂了她阻止身体消 失的药，并且告诉她怎样去找锅炉爷爷以及汤婆婆，而且必须获得一份工作才能不被魔法变成别的东西。　　　千寻在小白的帮助下幸运地获得了一份在浴池打杂的工作。渐渐她不再被那些怪模怪样的人吓倒，并从小玲那儿知道了小白是凶恶的汤婆婆的弟子。　　一次，千寻发现小白被一群白色飞舞的纸人打伤，为了救受伤的小白，她用河神送给她的药丸驱出了小白身体内的封印以及守封印的小妖精，但小白还是没有醒过来。　　为了救小白，千寻又踏上了她的冒险之旅。",
+            "filmType": {
+                "name": "2D",
+                "value": 1
+            },
+            "nation": "日本",
+            "language": "日语",
+            "videoId": "",
+            "premiereAt": 1561075200,
+            "timeType": 3,
+            "runtime": 125,
+            "grade": "7.5",
+            "item": {
+                "name": "2D",
+                "type": 1
+            },
+            "isPresale": true,
+            "isSale": false
+        }, {
+            "filmId": 4682,
+            "name": "玩具总动员4 ",
+            "poster": "https://pic.maizuo.com/usr/movie/294a01da8a6c9ed99bfbaaf52b2e0f25.jpg",
+            "actors": [{
+                "name": "汤姆·汉克斯 ",
+                "role": " Woody",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/a5fbc737da9237360ac8e816d3ac2731.jpg"
+            }, {
+                "name": "蒂姆·艾伦",
+                "role": "Buzz Lightyear",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/a7b2b5ced088b8c745cf4a7978e0e141.jpg"
+            }, {
+                "name": "安妮·波茨 ",
+                "role": " Bo Peep",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/cef52a00a2abbc175ae174d03646fdcc.jpg"
+            }, {
+                "name": " 托尼·海尔",
+                "role": " Forky",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/cc9ae722594132e885aac53cbf6443d4.jpg"
+            }],
+            "director": "乔什·库雷",
+            "category": "喜剧|动画|奇幻",
+            "synopsis": "《玩具总动员4》将是皮克斯的动画系列电影的第四部，主角是两个玩具：牛仔警长胡迪和太空骑警巴斯光年。　　《玩具总动员4》的故事将延续上集，孩子们变成了青年，玩具的回归便显得更加尴尬。当然，不排除皮克斯开辟新的故事方向，将系列电影更好地发展下去。",
+            "filmType": {
+                "name": "3D",
+                "value": 2
+            },
+            "nation": "美国",
+            "language": "英语",
+            "videoId": "",
+            "premiereAt": 1561075200,
+            "timeType": 3,
+            "runtime": 100,
+            "grade": "7.5",
+            "item": {
+                "name": "3D",
+                "type": 2
+            },
+            "isPresale": true,
+            "isSale": false
+        }, {
+            "filmId": 4709,
+            "name": "八子",
+            "poster": "https://pic.maizuo.com/usr/movie/e004f1cdd920fcb60dfd43f6f19afc2c.jpg",
+            "actors": [{
+                "name": "高希希",
+                "role": "导演",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/a99525b7b3cd30e43e9d7082407d7c9b.jpg"
+            }],
+            "director": "高希希",
+            "category": "动作|历史|战争",
+            "synopsis": "上世纪30年代的赣南地区，在这个被称为中国革命“红色摇篮”的地方，曾经有这样一位母亲，她将八个儿子先后送入红军，奔赴战场前线。但战火无情，兄弟中的六人陆续牺牲，只剩下大哥杨大牛和最小的孩子满崽。满崽找到了大牛的部队，成了哥哥麾下的普通一兵，一场场艰苦战役的淬炼让新兵满崽迅速成长为一个真正的战士。最后的战斗打响了，为了掩护大部队安全撤离，杨大牛带领弟弟满崽和全体战友浴血肉搏，直至弹尽粮绝……　　英雄的身前，是枪林弹雨的沙场，而在英雄的身后，家乡的村庄依然宁静安详，微风吹过金黄的稻浪簌簌作响，一位年迈的母亲正在村头的小路旁孤独的守望……   影片根据江西赣南地区家喻户晓的“八子参军”的故事改编。在战火硝烟的年代，千万人民群众投入到支援革命战争中，奉献了自己的一切。作为那个残酷年代的缩影，骨肉相连的母子情、不离不弃的兄弟情、赤胆忠心的家国情.....无数荡气回肠、难以割舍的情感凝聚于影片之中，共同谱写了一首可歌可泣、永垂不朽的英雄乐章。",
+            "filmType": {
+                "name": "2D",
+                "value": 1
+            },
+            "nation": "中国大陆",
+            "language": "汉语普通话",
+            "videoId": "XNDIwMDY0NTI5Ng==",
+            "premiereAt": 1561075200,
+            "timeType": 3,
+            "runtime": 120,
+            "grade": "7.5",
+            "item": {
+                "name": "2D",
+                "type": 1
+            },
+            "isPresale": true,
+            "isSale": false
+        }, {
+            "filmId": 4683,
+            "name": "蜘蛛侠：英雄远征",
+            "poster": "https://pic.maizuo.com/usr/movie/43394fd736aa2f25d485906a2100e759.jpg",
+            "actors": [{
+                "name": "乔·沃茨 ",
+                "role": "导演",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/3785022faabe6803a7672e96978dad58.jpg"
+            }, {
+                "name": " 汤姆·赫兰德",
+                "role": " 蜘蛛侠",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/8f4a6388fdf1f555ddb4d61076a36aa5.jpg"
+            }, {
+                "name": "赞达亚 ",
+                "role": "米歇尔",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/c8f6ca18d7c8a3708d26a9378a670a57.jpg"
+            }, {
+                "name": " 玛丽莎·托梅 ",
+                "role": "梅婶 ",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/9057f8df60cafbc423476fb3fed9a2df.jpg"
+            }, {
+                "name": "杰克·吉伦哈尔",
+                "role": " 神秘客",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/dcb168b3323b97e7535c3b8cac6032fa.jpg"
+            }],
+            "director": "乔·沃茨",
+            "category": "动作|科幻|冒险",
+            "synopsis": "最受关注的漫威超级英雄大片《蜘蛛侠：英雄远征》依旧由导演乔·沃茨执导，汤姆·赫兰德继续饰演蜘蛛侠彼得·帕克。此次蜘蛛侠将前往欧洲展开新的征程，并将对抗由杰克·吉伦哈尔加盟饰演的大反派神秘客，赞达亚、雅各布·巴特朗、托尼·雷沃罗利等原班人马也将悉数回归。本片将于2019年7月5日北美上映，经历了第一部的成长经历后，蜘蛛侠又会面临怎样的危机？敬请期待。",
+            "filmType": {
+                "name": "3D",
+                "value": 2
+            },
+            "nation": "美国",
+            "language": " 英语",
+            "videoId": "",
+            "premiereAt": 1561680000,
+            "timeType": 3,
+            "runtime": 135,
+            "grade": "7.5",
+            "item": {
+                "name": "3D",
+                "type": 2
+            },
+            "isPresale": true,
+            "isSale": false
+        }, {
+            "filmId": 4589,
+            "name": "扫毒2：天地对决 ",
+            "poster": "https://pic.maizuo.com/usr/movie/6257a7d8b5c4751f628f89a03facee35.jpg",
+            "actors": [{
+                "name": "古天乐 ",
+                "role": "演员",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/04df7483d268ec037cfbe178fb059b9a.jpg"
+            }, {
+                "name": " 苗侨伟",
+                "role": "演员",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/da0e908955d8d85941ff47bfd5ab7bc6.jpg"
+            }, {
+                "name": "邱礼涛 ",
+                "role": "导演",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/aa2af34128e6f5823be72ccc3a3e6588.jpg"
+            }, {
+                "name": "刘德华 ",
+                "role": "演员",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/49edcf7e3f5ae0b3539a5f973bcca617.jpg"
+            }],
+            "director": " 邱礼涛",
+            "category": "剧情|动作|悬疑|犯罪",
+            "synopsis": "毒品市场维持四分天下的格局已久，但自从地藏与墨西哥大毒枭跨境合作扩展势力，再加上一连串黑吃黑的动作，毒界变得风声鹤唳。另一方面，因儿时亲眼目睹父亲被毒品所毁而嫉毒如仇的慈善家兼金融巨子余顺天，正悬赏一亿歼灭香港最大毒贩，此举在社会上引起轩然大波。警员林正风本致力搜证拘捕地藏，毒贩却因巨额悬赏导致人身安全受威胁，他在执行保护毒贩的任务时深感无奈，但又被余顺天的出价所诱惑，陷入黑白正邪的心理挣扎。原来，余顺天和地藏有不可告人的同门关系，一场天地对决一触即发。",
+            "filmType": {
+                "name": "2D",
+                "value": 1
+            },
+            "nation": "中国大陆   香港",
+            "language": "",
+            "videoId": "",
+            "premiereAt": 1562889600,
+            "timeType": 3,
+            "runtime": 100,
+            "item": {
+                "name": "2D",
+                "type": 1
+            },
+            "isPresale": true,
+            "isSale": false
+        }, {
+            "filmId": 4716,
+            "name": "爱宠大机密2",
+            "poster": "https://pic.maizuo.com/usr/movie/bab81f484e7f5cc7a3e9cf69ffb22ff7.jpg",
+            "actors": [{
+                "name": "克里斯·雷纳德",
+                "role": "导演",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/87c8eba20c01ea8fc7143b2577663462.jpg"
+            }, {
+                "name": "艾瑞克·斯通斯崔特",
+                "role": "杜克（配音）",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/39c54a7ee385111b66f21d5c4dde676b.jpg"
+            }, {
+                "name": "哈里森·福特",
+                "role": "鲁叔（配音）",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/575449c7c7f241ac866c4fa138eb7cb8.jpg"
+            }, {
+                "name": "凯文·哈特",
+                "role": "小白（配音）",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/f8e8650296865f2cd22212db788db311.jpg"
+            }, {
+                "name": "帕顿·奥斯瓦尔特",
+                "role": "麦克（配音）",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/0483655ac3559a563f4bcbea4c0917ef.jpg"
+            }],
+            "director": "克里斯·雷纳德",
+            "category": "喜剧|动画|冒险",
+            "synopsis": "《爱宠大机密2》将延续2016年夏天轰动一时的《爱宠大机密》的故事，讲述宠物在我们每天离家工作或上学后的生活。照明娱乐创始人兼首席执行官克里斯·梅勒丹德利和他长久以来的合作伙伴珍娜·海莉将共同制作这部续集。《爱宠大机密》是当时开画成绩最好的原创电影，不论是动画片还是其他类型。《爱宠大机密2》继续由布莱恩·林奇（《小黄人大眼萌》）编剧，并再一次由克里斯·雷纳德（《神偷奶爸》系列，《老雷斯的故事》）执导。",
+            "filmType": {
+                "name": "3D",
+                "value": 2
+            },
+            "nation": "美国",
+            "language": "英语",
+            "videoId": "XNDIzMjEwNzM5Mg=",
+            "premiereAt": 1562284800,
+            "timeType": 3,
+            "runtime": 103,
+            "item": {
+                "name": "3D",
+                "type": 2
+            },
+            "isPresale": true,
+            "isSale": false
+        }, {
+            "filmId": 4673,
+            "name": "黑衣人：全球追缉",
+            "poster": "https://pic.maizuo.com/usr/movie/428385c8393778d8d75de22434d7ce7d.jpg",
+            "actors": [{
+                "name": "F·加里·格雷",
+                "role": " 导演",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/3502fc91003dc5e5611c5d128c61b3e6.jpg"
+            }, {
+                "name": "克里斯·海姆斯沃斯",
+                "role": "Agent H",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/006ce21b7210f1389456b84f07243196.jpg"
+            }, {
+                "name": "泰莎·汤普森",
+                "role": " Agent M",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/509732acfb564194749a84578e60155f.jpg"
+            }, {
+                "name": "丽贝卡·弗格森",
+                "role": "演员 ",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/c5ffc0e4ce65f5ad053735780c47db0e.jpg"
+            }],
+            "director": " F·加里·格雷",
+            "category": "喜剧|动作|科幻",
+            "synopsis": "全球最具影响力的经典科幻IP《黑衣人》全面升级！科幻电影之父史蒂文·斯皮尔伯格联手《速度与激情8》导演F·加里·格雷，金牌班底鼎力巨献！英国黑衣人总部王牌探员H（锤哥）与新晋探员M（泰莎·汤普森）在阻止外星团伙入侵的过程中意外铲除了隐藏在黑衣人组织中的内奸，成功拯救世界。　　影片中，各种脑洞大开的外星人和颠覆想象的高科技装备轮番登场，热血沸腾惊心动魄的动作追车场面层出不穷，完美构建出全新的黑衣人宇宙观。本片将于2019年6月14日北美上映。",
+            "filmType": {
+                "name": "2D",
+                "value": 1
+            },
+            "nation": "美国",
+            "language": "英语",
+            "videoId": "",
+            "premiereAt": 1560470400,
+            "timeType": 3,
+            "runtime": 100,
+            "grade": "6.9",
+            "item": {
+                "name": "2D",
+                "type": 1
+            },
+            "isPresale": true,
+            "isSale": false
+        }, {
+            "filmId": 4690,
+            "name": "绝杀慕尼黑",
+            "poster": "https://pic.maizuo.com/usr/movie/2a5dc6e97983c1af099a4ab7e621f6b2.jpg",
+            "actors": [{
+                "name": "安东·梅格尔季切夫",
+                "role": "导演",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/fe359c5be34b98155ae5eb199b2ffc24.jpg"
+            }, {
+                "name": "约翰·萨维奇 ",
+                "role": "演员 ",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/fc5b6252aa8c5682f4db48f3311ca3de.jpg"
+            }, {
+                "name": "弗拉基米尔·马什科夫",
+                "role": "演员 ",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/5c81dc48de3eea8035fb6b4c87bc8e19.jpg"
+            }, {
+                "name": "马拉特·巴沙罗夫",
+                "role": "演员 ",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/8c001a14d0a9847a9cfe8ecfe4a85b87.jpg"
+            }],
+            "director": "安东·梅格尔季切夫",
+            "category": "剧情|运动",
+            "synopsis": "电影根据体育历史中著名的传奇真实事件改编，讲述了1972年慕尼黑奥运会篮球决赛中，前苏联篮球队打败了保持了36年全胜纪录的美国队的传奇故事。在决赛结束前三秒钟，美国队以一分优势领先。美国队已经开始提前庆祝比赛的胜利了，因为他们相信比赛结果已成定局。然而，一位来自苏联的不知名篮球教练，率领着艰难、困苦、贫穷中的苏联国家队，比赛结果发生逆转，整个篮球历史也发生了改变。",
+            "filmType": {
+                "name": "2D",
+                "value": 1
+            },
+            "nation": "俄罗斯",
+            "language": "格鲁吉亚语  俄语  ",
+            "videoId": "",
+            "premiereAt": 1560384000,
+            "timeType": 3,
+            "runtime": 100,
+            "grade": "8.3",
+            "item": {
+                "name": "2D",
+                "type": 1
+            },
+            "isPresale": true,
+            "isSale": false
+        }, {
+            "filmId": 4650,
+            "name": "哥斯拉2：怪兽之王 ",
+            "poster": "https://pic.maizuo.com/usr/movie/30c2d07ca752d727a14702a89be44a50.jpg",
+            "actors": [{
+                "name": "维拉·法米加",
+                "role": "Dr. Emma Russell ",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/ea99a1dbbefc93a7d280fdfbfdec81aa.jpg"
+            }, {
+                "name": "米莉·波比·布朗",
+                "role": " Madison Russell",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/c4371991b9c77fa0ee74e19de8190e45.jpg"
+            }, {
+                "name": "章子怡",
+                "role": "Dr. Chen",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/30151622ac9b396273d80dcf932a2611.jpg"
+            }],
+            "director": "迈克尔·道赫蒂",
+            "category": "动作|科幻|冒险|灾难",
+            "synopsis": "哥斯拉将和众多大家在流行文化中所熟知的怪兽展开较量。全新故事中，研究神秘动物学的机构“帝王组织”将勇敢直面巨型怪兽，其中强大的哥斯拉也将和魔斯拉、拉顿和它的死对头——三头王者基多拉展开激烈对抗。当这些只存在于传说里的超级生物再度崛起时，它们将展开王者争霸，人类的命运岌岌可危……",
+            "filmType": {
+                "name": "2D",
+                "value": 1
+            },
+            "nation": "美国",
+            "language": "英语",
+            "videoId": "",
+            "premiereAt": 1559260800,
+            "timeType": 3,
+            "runtime": 100,
+            "grade": "7.5",
+            "item": {
+                "name": "2D",
+                "type": 1
+            },
+            "isPresale": true,
+            "isSale": false
+        }, {
+            "filmId": 4724,
+            "name": "逆流大叔",
+            "poster": "https://pic.maizuo.com/usr/movie/9b4dd34edce2ed2e2c444520cc0fe67d.jpg",
+            "actors": [{
+                "name": "陈咏燊",
+                "role": "导演",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/73e8109bcc93767185bd5f10c03eb5fc.jpg"
+            }, {
+                "name": "吴镇宇",
+                "role": "陈龙",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/d893a3dc5e13bebe66e5d946f4f2f7e6.jpg"
+            }, {
+                "name": "黄德斌",
+                "role": "黎家泰",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/b98272256bf8db9cb4ce2d4166c8d76f.jpg"
+            }, {
+                "name": "胡定欣",
+                "role": "杨敏琪",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/664c017d6864f4688f3bfa706db08b93.jpg"
+            }, {
+                "name": "潘灿良",
+                "role": "黄淑仪",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/1db4f77587c432bdfbc387968e405a4b.jpg"
+            }],
+            "director": "陈咏燊",
+            "category": "剧情|运动|喜剧",
+            "synopsis": "男人，就是要逆流而上。阿龙(吴镇宇饰)、淑仪(潘灿良饰)、泰哥(黄德斌饰)、威廉(胡子彤饰)，四个高不成低不就、做事得过且过的宽频网络公司员工，见公司掀起了裁员风暴，为表对公司忠诚以「保饭碗」，误打误碰地加入了公司新成立的龙舟队！面对男人之苦，这班本来选择逃避的大叔们，坐到只许前进不许后退的龙舟之上，竟重拾了人生久违了的冲劲。一鼓作气的他们，不但参与了难度更高的长途龙舟大赛，更借着重新燃起的斗志，迈步去迎接自己人生里一道又一道的逆流…",
+            "filmType": {
+                "name": "2D",
+                "value": 1
+            },
+            "nation": "中国香港",
+            "language": "粤语",
+            "videoId": "",
+            "premiereAt": 1561680000,
+            "timeType": 3,
+            "runtime": 92,
+            "grade": "8",
+            "item": {
+                "name": "2D",
+                "type": 1
+            },
+            "isPresale": true,
+            "isSale": false
+        }],
+        "total": 52
+    },
+    "msg": "ok"
+}

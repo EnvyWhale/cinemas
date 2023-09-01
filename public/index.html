@@ -1,0 +1,37 @@
+<!--
+ * @Author: yangxiaosen
+ * @Date: 2023-04-06 14:59:03
+ * @LastEditors: Do not edit
+ * @LastEditTime: 2023-04-11 23:34:19
+ * @FilePath: \text\public\index.html
+-->
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <!-- 配置页签图标 <%= BASE_URL %>为public，也相当于浏览器-->
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <!-- 配置网页标题，<%= htmlWebpackPlugin.options.title %>指向package.json中的name-->
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+  <script>
+    // fontsize计算rem.1rem=...px,设计稿为750
+    // document.documentElement.style.fontSize = document.documentElement.clientWidth / 750 * 16 + 'px';
+  </script>
+</head>
+
+<body>
+  <!-- 当浏览器不支持script，则渲染这个标签 -->
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>
