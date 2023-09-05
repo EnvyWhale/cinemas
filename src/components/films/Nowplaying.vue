@@ -30,14 +30,17 @@
               <img :src="item.poster" alt="" />
             </div>
             <div class="content">
-              <div class="title">{{ item.name }}</div>
+              <div class="title">
+                {{ item.name
+                }}<van-tag color="#7232dd">{{ item.item.name }}</van-tag>
+              </div>
               <span :class="item.grade ? '' : 'hidden'"
                 >观众评分：{{ item.grade }}</span
               >
               <div class="actors">主演：{{ item.actors | actorsFilter }}</div>
               <div>{{ item.nation }} | {{ item.runtime }}分钟</div>
             </div>
-            <button class="btn_buy" :data-filmid="item.filmId">购票</button>
+            <div class="btn_buy" :data-filmid="item.filmId">购票</div>
           </div>
         </van-cell>
       </van-list>
@@ -72,7 +75,6 @@ export default {
   },
   methods: {
     jumping(id) {
-      console.log(1);
       // 编程式导航
       // 1.   location.href = '#/detail'
       //   当前匹配的路由
@@ -100,7 +102,7 @@ export default {
           "X-Host": "mall.film-ticket.film.list",
         },
       }).then((res) => {
-        // console.log(res.data);
+        console.log(res.data);
         this.datalist = [...this.datalist, ...res.data.data.films];
         // 加载状态结束
         this.loading = false;
@@ -134,6 +136,23 @@ export default {
       // console.log(res.data.data.films)
       this.datalist = res.data.data.films;
       this.total = res.data.data.total;
+      setTimeout(() => {
+        this.$dialog
+          .confirm({
+            title: "提示",
+            message: "登陆可体验更多功能",
+            confirmButtonText: "现在就去",
+            cancelButtonText: "等会再去",
+          })
+          .then(() => {
+            // on confirm
+            this.$router.push("/login");
+          })
+          .catch(() => {
+            // on cancel
+            console.log(2);
+          });
+      }, 1000);
     });
   },
 };
@@ -141,7 +160,13 @@ export default {
 <style lang="scss" scoped>
 .van-list {
   .van-cell {
-    padding: 10px 10px;
+    width: 95vw;
+    padding: 0 0 5px 0;
+    margin: 10px 10px;
+    border-bottom: 1px rgb(191, 191, 191) solid;
+  }
+  .van-tag {
+    margin-left: 5px;
   }
   .CinemaBox {
     // background-color: aquamarine;
@@ -186,17 +211,18 @@ export default {
         white-space: nowrap;
       }
     }
-
     .btn_buy {
       position: absolute;
       top: 35px;
       right: 0px;
       width: 40px;
-      height: 30px;
+      height: 26px;
+      line-height: 26px;
       border-radius: 5px;
       color: rgb(255, 55, 55);
       border: 1px rgb(255, 66, 66) solid;
       font-size: 13px;
+      text-align: center;
     }
   }
 }

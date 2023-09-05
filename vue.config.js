@@ -14,4 +14,3 @@ module.exports = defineConfig({
   lintOnSave: true
 
 })
-

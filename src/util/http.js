@@ -8,30 +8,7 @@
  */
 import axios from 'axios'
 import { Toast } from 'vant'
-// 1-对于数据请求的封装（函数方式）
-// function httpForList() {
-//     return axios({
-//         url:
-//             'https://m.maizuo.com/gateway?cityId=110100&pageNum=4&pageSize=10&type=1&k=5545971',
-//         headers: {
-//             'X-Client-Info':
-//                 '{"a":"3000","ch":"1002","v":"5.2.1","e":"16810184282822338974318593","bc":"110100"}',
-//             'X-Host': 'mall.film-ticket.film.list'
-//         }
-//     })
-// }
-// function httpForDetail(params) {
-//     return axios({
-//         url: `https://m.maizuo.com/gateway?filmId=${params}&k=7128784`,
-//         headers: {
-//             'X-Client-Info': '{"a":"3000","ch":"1002","v":"5.2.1","e":"16810184282822338974318593","bc":"110100"}',
-//             'X-Host': 'mall.film-ticket.film.info'
-//         }
-//     })
-// }
-
 // 2-用axios实例
-
 const http = axios.create({
     baseURL: 'https://m.maizuo.com',
     timeout: 10000,

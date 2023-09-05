@@ -13,12 +13,12 @@
                 <span>电影</span>
             </router-link> -->
       <!-- vue-router @4版本用插槽语法 -->
-      <router-link to="nowplaying" custom v-slot="{ navigate, isActive }">
+      <router-link to="nowplaying" exact custom v-slot="{ navigate, isActive }">
         <li @click="navigate">
           <span :class="isActive ? 'activeheader' : ''">正在热映</span>
         </li>
       </router-link>
-      <router-link to="comingsoon" custom v-slot="{ navigate, isActive }">
+      <router-link to="comingsoon" exact custom v-slot="{ navigate, isActive }">
         <li @click="navigate">
           <span :class="isActive ? 'activeheader' : ''">即将上映</span>
         </li>
@@ -32,9 +32,15 @@
   color: red;
   border-bottom: 2px solid red;
 }
-
+.router-link-exact-active {
+  color: #ff5f16;
+}
+.router-link-active {
+  color: #ff5f16;
+}
 ul {
-  background-color: rgb(255, 249, 249);
+  background-color: white;
+
   display: flex;
   height: 1rem;
   line-height: 1rem;

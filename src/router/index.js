@@ -27,12 +27,12 @@ const routes = [
         component: Nowplaying
       },
       {
-        path: 'comingsoon',
+        path: '/films/comingsoon',
         component: () => import('@/components/films/Comingsoon')
       },
       // 子重定向
       {
-        path: '/films',
+        path: '',
         redirect: '/films/nowplaying'
       }
     ]
@@ -52,23 +52,27 @@ const routes = [
     component: () => import('@/components/cinemas/Search')
   },
   // 个人中心路由配置
-  // {
-  //   path: '/center',
-  //   // 路由懒加载
-  //   component: () => import('@/views/Center'),
-  //   meta: {
-  //     isStoprequire: true
-  //   }
-  //   // 路由独享拦截(局部拦截)
-  //   // beforeEach: (to, from, next) => {
-  //   //   //
-  //   // }
-  // },
+  {
+    path: '/center',
+    // 路由懒加载
+    component: () => import('@/views/CenterView'),
+    meta: {
+      isStoprequire: true
+    }
+    // 路由独享拦截(局部拦截)
+    // beforeEach: (to, from, next) => {
+    //   //
+    // }
+  },
   // 电影详情路由配置
   {
     name: 'detail', // 命名路由
     path: '/detail/:id', // 动态路由
     component: Detail
+  },
+  {
+    path: '/login',
+    component: () => import('@/views/Login')
   },
   // 重定向
   {

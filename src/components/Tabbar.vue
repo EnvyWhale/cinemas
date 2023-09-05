@@ -2,15 +2,15 @@
 <template>
   <footer>
     <ul class="nav_list">
-      <router-link tag="li" to="/films" active-class="groupOne">
+      <router-link tag="li" to="/films">
         <i class="iconfont icon-viewlist"></i>
         <span>电影</span>
       </router-link>
-      <router-link tag="li" to="/cinemas" active-class="groupOne">
+      <router-link tag="li" to="/cinemas">
         <i class="iconfont icon-viewgallery"></i>
         <span>影院</span>
       </router-link>
-      <router-link tag="li" to="/center" active-class="groupOne">
+      <router-link tag="li" to="/center">
         <i class="iconfont icon-account"></i>
         <span>我的</span>
       </router-link>
@@ -60,7 +60,10 @@ footer {
 
 // 设置active-class，会覆盖官方默认的router-link-active(当前选中标签的class样式)
 
+.router-link-active {
+  color: #ff5f16;
+}
 .groupOne {
-  color: red;
+  color: #ff5f16;
 }
 </style>
